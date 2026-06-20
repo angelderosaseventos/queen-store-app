@@ -1,0 +1,61 @@
+{
+  "name": "Queen Store — Comodines y Rifas",
+  "short_name": "Queen Store",
+  "description": "App para gestionar comodines, rifas, jugadas y premios — sin conexión a internet",
+  "start_url": "./QUEEN_STORE_COMODINES_APP.html",
+  "display": "standalone",
+  "background_color": "#0d0d14",
+  "theme_color": "#f0c060",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230d0d14' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' fill='%23f0c060' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♣</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%230d0d14' width='512' height='512'/><text x='50%' y='50%' font-size='280' font-weight='bold' fill='%23f0c060' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♣</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230d0d14' width='540' height='720'/><text x='50%' y='100' font-size='24' fill='%23f0c060' text-anchor='middle' font-weight='bold'>Queen Store</text><text x='50%' y='150' font-size='16' fill='%238888aa' text-anchor='middle'>Comodines & Rifas</text></svg>",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo Comodín",
+      "short_name": "Nuevo",
+      "description": "Crear un nuevo comodín",
+      "url": "./QUEEN_STORE_COMODINES_APP.html?action=new",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23f0c060' width='192' height='192' rx='40'/><text x='50%' y='50%' font-size='100' fill='%230d0d14' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>+</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Ver Tablero",
+      "short_name": "Tablero",
+      "description": "Ver los tableros de comodines",
+      "url": "./QUEEN_STORE_COMODINES_APP.html?action=board",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%236688ff' width='192' height='192' rx='40'/><text x='50%' y='50%' font-size='90' fill='%23fff' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>📊</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
